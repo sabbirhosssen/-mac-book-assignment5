@@ -58,7 +58,7 @@ function totalPrice() {
     const deliveryPrice = parseFloat(deliveryCost.innerText);
     const totalCostPrice = memoryPrice + storagePrice + deliveryPrice + bestPrice;
     totalProductCost.innerText = totalCostPrice;
-    masterTotal.innerText = totalCostPrice;
+
 
 
 }
